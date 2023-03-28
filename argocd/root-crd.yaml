@@ -1,13 +1,13 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: root-apps
+  name: my-apps
 spec:
   destination:
     namespace: default
     server: 'https://kubernetes.default.svc'
   source:
-    path: argocd/argocd-apps
+    path: argocd/argo-apps
     repoURL: 'https://github.com/Chillibean/manish-argocd-test.git'
     targetRevision: HEAD
   project: default

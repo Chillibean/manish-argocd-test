@@ -1,0 +1,3 @@
+replicaCountWeb: 3
+mongoWebImage: mongo-express
+ingressType: LoadBalancer
