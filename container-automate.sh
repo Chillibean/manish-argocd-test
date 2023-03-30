@@ -1,4 +1,7 @@
 #!/bin/bash
+git config --global user.email "manish@chillibean.tv"
+git config --global user.name "Manish Vadgama"
+
 echo "create namespace folder name..."
 namespace_id=$RANDOM
 echo "namespace ID: $namespace_id"
