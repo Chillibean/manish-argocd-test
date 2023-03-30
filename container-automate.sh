@@ -1,6 +1,6 @@
 #!/bin/bash
 git config --global user.email "manish@chillibean.tv"
-git config --global user.name "Manish Vadgama"
+git config --global user.name "mvadgama"
 git config --global push.default simple
 
 echo "create namespace folder name..."
